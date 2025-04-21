@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style> 
+        
+        *{
+           height: 100%;
+           /* '*' é uma Configuração global das CSS*/
+        }
+        body{
+            
+            background-image:linear-gradient(to bottom, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579);
+            /* Na direção do gradiente posso usar lados como: to right, bottom, top, left ou graus (deg) */
+            /* Também tem a opção de background-image radial-gradient onde posso botar degrade em formato de circulo... mas é feio */
+
+            background-attachment: fixed;
+            /* background-attachment fixed faz com que o degrade fique fixo na página inteira e não saia quando rolar*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Gradiente do Instagram</h1>
+</body>
+</html>

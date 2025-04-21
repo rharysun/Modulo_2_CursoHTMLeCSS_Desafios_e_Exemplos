@@ -1,0 +1,17 @@
+@charset "urf-8";
+
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(180, 180, 180);
+}
+
+.titulo1{
+    color: rgb(255, 0, 0);
+}
+
+.titulo2{
+    color: rgb(101, 0, 0);
+}

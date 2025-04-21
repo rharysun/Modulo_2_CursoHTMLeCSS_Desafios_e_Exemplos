@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+/* EM HTML == ID (INDIVIDUAL)
+   EM CSS == # 
+
+   EM HTML == CLASS (GRUPOS)
+   EM CSS == .
+*/
+body{
+    background-color: rgba(68, 255, 0, 0.233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(0, 35, 0);
+}
+
+h1{
+    color: rgb(0, 255, 0);
+}
+
+h2{
+    color: rgb(0, 141, 0);
+}
+
+p{
+    color: rgb(0, 71, 0);
+}
